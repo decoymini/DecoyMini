@@ -21,6 +21,6 @@ DecoyMini•智能仿真与攻击诱捕工具采用欺骗防御等新技术，�
 ## 交流
 微信群
 
-![微信群](http://bbs.decoyit.com/wxqr.png)
+![微信群](http://bbs.decoyit.com/wxqr_code.png)
 
 QQ 群：599120645
