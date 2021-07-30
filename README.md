@@ -28,5 +28,6 @@ DecoyMini_Windows_v1.0.1420.pkg -install
 在使用 DecoyMini 过程中，如有问题可以在微信群或 QQ 群交流讨论，我们都会及时处理！
 * QQ 群：599120645
 * 微信群：扫描以下二维码一键入群
+
 ![微信群](http://bbs.decoyit.com/wxqr_code.png)
 * 可在 [此处](http://bbs.decoyit.com/forum-44-1.html) 进行 BUG 反馈
