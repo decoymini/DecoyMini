@@ -25,7 +25,7 @@
 最低配置|CPU ≥ 2核; 内存 ≥ 2G; 硬盘 ≥ 50G|CPU ≥ 4核; 内存 ≥ 4G; 硬盘 ≥ 100G|CPU ≥ 2核; 内存 ≥ 1G; 硬盘 ≥ 10G
 推荐配置|CPU 4 核; 内存 4G; 硬盘 100G|CPU 6 核; 内存 8G; 硬盘 200G|CPU 2 核; 内存 2G; 硬盘 20G
 
-## :package: 安装
+## :package: 安装与卸载
 前往 :point_right: [releases](https://github.com/decoymini/DecoyMini/releases) 处下载 DecoyMini，支持 32 位和 64 位的 Windows 和 Linux，用户安装需遵循 [安装许可使用协议](http://bbs.decoyit.com/thread-17-1-1.html) ！
 
 ### 单节点/管理中心安装
@@ -65,6 +65,33 @@ DecoyMini_Linux_xyy_xxx.pkg -install -addr 管理中心地址
 示例
 ```bash
 DecoyMini_Linux_xyy_xxx.pkg -install -addr http://192.168.8.100:8080
+```
+
+### 卸载
+
+如若要卸载，在终端下输入相应命令即可：
+```bash
+Windows：decoymini.exe -uninstall
+Linux：decoymini -uninstall
+```
+
+### 相关命令
+```bash
+Usage of decoymini:
+  -addr string
+        Manager address(like: http://192.168.1.8)
+  -info
+        Show information
+  -intf string
+        Default network interface(like: ens32)
+  -register
+        Register DecoyMini
+  -run
+        Running DecoyMini
+  -set
+        Set DecoyMini config
+  -uninstall
+        Uninstall DecoyMini
 ```
 
 ## :bar_chart: 界面
