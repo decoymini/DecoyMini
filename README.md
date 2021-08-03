@@ -69,7 +69,7 @@ DecoyMini_Linux_xyy_xxx.pkg -install -addr http://192.168.8.100:8080
 
 ### 卸载
 
-如若要卸载，在终端下输入相应命令即可：
+如若要卸载，在终端下输入相应命令即可（Windows 下卸载同样也需在 cmd 管理员模式下）：
 ```bash
 Windows：decoymini.exe -uninstall
 Linux：decoymini -uninstall
