@@ -1,6 +1,6 @@
 ![DecoyMini_bg](https://github.com/decoymini/DecoyMini/blob/main/DecoyMini_bg.png)
 
-![version](https://img.shields.io/badge/version-v1.0.1420-brightgreen)
+![version](https://img.shields.io/badge/version-v1.0.1524-brightgreen)
 ![language](https://img.shields.io/badge/language-golang-orange)
 ![platform](https://img.shields.io/badge/platform-windows%20%7C%20linux-lightgrey)
 
@@ -98,5 +98,5 @@ DecoyMini_Windows_xxx.pkg -install -addr http://192.168.8.100:8080
 * QQ 群：599120645
 * 微信群：扫描以下二维码一键入群
 
-![微信群](http://bbs.decoyit.com/wxqr_code.png)
+![image](https://user-images.githubusercontent.com/85264922/127960735-6efe0920-c918-4bb4-aa7d-6aff9bdcac67.png)
 * 可在 [此处](http://bbs.decoyit.com/forum-44-1.html) 进行 BUG 反馈 :sunglasses:
