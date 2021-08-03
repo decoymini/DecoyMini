@@ -86,6 +86,11 @@ Usage of decoymini:
         Uninstall Software
 ```
 
+示例：显示安装信息，在命令行窗口执行如下命令：
+```bash
+decoymini -info
+```
+
 ## :bar_chart: 界面
 登录界面：
 
