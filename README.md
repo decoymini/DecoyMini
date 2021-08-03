@@ -78,20 +78,12 @@ Linux：decoymini -uninstall
 ### 相关命令
 ```bash
 Usage of decoymini:
-  -addr string
-        Manager address(like: http://192.168.1.8)
   -info
         Show information
-  -intf string
-        Default network interface(like: ens32)
-  -register
-        Register DecoyMini
-  -run
-        Running DecoyMini
-  -set
-        Set DecoyMini config
+  -set -addr string
+        Set Manager address
   -uninstall
-        Uninstall DecoyMini
+        Uninstall Software
 ```
 
 ## :bar_chart: 界面
