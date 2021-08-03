@@ -39,6 +39,12 @@ DecoyMini_Windows_xxx.exe -install
 ```bash
 DecoyMini_Linux_xyy_xxx.pkg -install
 ```
+
+登录可使用两种方式登录，一个使用论坛帐号直接登录 (推荐)，另一个是使用本地默认帐户登录，本地默认帐号密码：
+```bash
+帐号：admin
+密码：Admin@123
+```
 ### 诱捕探针安装
 
 **Windows**:
