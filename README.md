@@ -37,7 +37,7 @@ DecoyMini_Windows_xxx.exe -install
 
 **Linux：**
 ```bash
-DecoyMini_Windows_xxx.pkg -install
+DecoyMini_Linux_xyy_xxx.pkg -install
 ```
 ### 诱捕探针安装
 
@@ -53,12 +53,12 @@ DecoyMini_Windows_xxx.exe -install -addr http://192.168.8.100:8080
 
 **Linux:**
 ```bash
-DecoyMini_Windows_xxx.pkg -install -addr 管理中心地址
+DecoyMini_Linux_xyy_xxx.pkg -install -addr 管理中心地址
 ```
 
 示例
 ```bash
-DecoyMini_Windows_xxx.pkg -install -addr http://192.168.8.100:8080
+DecoyMini_Linux_xyy_xxx.pkg -install -addr http://192.168.8.100:8080
 ```
 
 ## :bar_chart: 界面
