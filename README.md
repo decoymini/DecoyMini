@@ -98,11 +98,11 @@ decoymini -info
 
 仪表盘：
 
-![image](https://user-images.githubusercontent.com/85264922/129677565-b5e1b91f-8d44-42c4-b9e1-2d2673ac8aae.png)
+![p1](https://user-images.githubusercontent.com/85264922/129677849-e8248979-0747-4d26-ae6d-adb0d47715ac.png)
 
 风险事件列表：
 
-![image](https://user-images.githubusercontent.com/85264922/129677617-76820485-ad12-405d-bded-78365c5c8661.png)
+![p2](https://user-images.githubusercontent.com/85264922/129677904-e4d2ceab-9dd8-4916-8a83-e323f1dd4d26.png)
 
 风险事件详情：
 
