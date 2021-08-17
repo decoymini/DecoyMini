@@ -1,6 +1,6 @@
 ![DecoyMini_bg](https://github.com/decoymini/DecoyMini/blob/main/DecoyMini_bg.png)
 
-![version](https://img.shields.io/badge/version-v1.0.1586-brightgreen)
+![version](https://img.shields.io/badge/version-v1.0.1718-brightgreen)
 ![language](https://img.shields.io/badge/language-golang-orange)
 ![platform](https://img.shields.io/badge/platform-windows%20%7C%20linux-lightgrey)
 
@@ -98,11 +98,11 @@ decoymini -info
 
 仪表盘：
 
-![image](https://user-images.githubusercontent.com/85264922/127760860-5c0ca21f-f6cd-45c1-ae63-8be3944b6c6c.png)
+![image](https://user-images.githubusercontent.com/85264922/129677565-b5e1b91f-8d44-42c4-b9e1-2d2673ac8aae.png)
 
 风险事件列表：
 
-![image](https://user-images.githubusercontent.com/85264922/127760869-ff53b0ef-bfae-4a80-9750-3835093116c6.png)
+![image](https://user-images.githubusercontent.com/85264922/129677617-76820485-ad12-405d-bded-78365c5c8661.png)
 
 风险事件详情：
 
@@ -128,5 +128,5 @@ decoymini -info
 * QQ 群：599120645
 * 微信群：扫描以下二维码一键入群
 
-![image](https://user-images.githubusercontent.com/85264922/128815550-e213cbce-089f-408f-9be7-ccb02602f262.png)
+![image](https://user-images.githubusercontent.com/85264922/129677318-478498da-aa94-4563-b021-fdb088b7f598.png)
 * 可在 [此处](http://bbs.decoyit.com/forum-44-1.html) 进行 BUG 反馈 :sunglasses:
