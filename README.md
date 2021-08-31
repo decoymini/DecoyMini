@@ -1,4 +1,4 @@
-![DecoyMini_bg](https://github.com/decoymini/DecoyMini/blob/main/DecoyMini_bg.png)
+![DecoyMini_bg](https://github.com/decoymini/DecoyMini/blob/main/DecoyMini_bg_new.png)
 
 ![version](https://img.shields.io/badge/version-v1.0.1785-brightgreen)
 ![language](https://img.shields.io/badge/language-golang-orange)
