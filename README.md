@@ -128,12 +128,8 @@ decoymini -info
 ## :pushpin: 交流
 在使用 DecoyMini 过程中，如有问题可以在微信群或 QQ 群交流讨论 :clap:，我们都会及时处理！
 * QQ 群：599120645
-* 微信群：扫描以下二维码一键入群
+* 微信群：扫描以下二维码一键入群 (2 群)
 
-![image](https://user-images.githubusercontent.com/85264922/130579574-289876b1-c148-45bc-9568-27a8cbb01263.png)
-
-如果提示群满，请添加小助理 vx，拉你进群：
-
-![image](https://user-images.githubusercontent.com/85264922/131464916-7cf30aa3-05c4-477f-86fb-c497defd8e02.png)
+![image](https://user-images.githubusercontent.com/85264922/133377530-d962388c-b348-4657-8353-0c4d7d90280a.png)
 
 * 可在 [此处](http://bbs.decoyit.com/forum-44-1.html) 进行 BUG 反馈 :sunglasses:
