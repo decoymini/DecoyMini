@@ -1,6 +1,6 @@
 ![DecoyMini_bg](https://github.com/decoymini/DecoyMini/blob/main/DecoyMini_bg_new.png)
 
-![version](https://img.shields.io/badge/version-v1.0.1843-brightgreen)
+![version](https://img.shields.io/badge/version-v1.0.2091-brightgreen)
 ![language](https://img.shields.io/badge/language-golang-orange)
 ![platform](https://img.shields.io/badge/platform-windows%20%7C%20linux-lightgrey)
 
@@ -130,6 +130,6 @@ decoymini -info
 * QQ 群：599120645
 * 微信群：扫描以下二维码一键入群 (2 群)
 
-![image](https://user-images.githubusercontent.com/85264922/133377530-d962388c-b348-4657-8353-0c4d7d90280a.png)
+![image](https://user-images.githubusercontent.com/85264922/135039209-05aa5566-a988-4095-822c-c4ac7f51caaf.png)
 
 * 可在 [此处](http://bbs.decoyit.com/forum-44-1.html) 进行 BUG 反馈 :sunglasses:
