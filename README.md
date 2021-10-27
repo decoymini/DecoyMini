@@ -39,7 +39,7 @@ DecoyMini_Windows_xxx.exe -install
 
 **Linux：**
 ```bash
-DecoyMini_Linux_xyy_xxx.pkg -install
+./DecoyMini_Linux_xyy_xxx.pkg -install
 ```
 
 登录可使用两种方式登录，一个使用论坛帐号直接登录 (推荐)，另一个是使用本地默认帐户登录，本地默认帐号密码：
@@ -134,6 +134,6 @@ decoymini -info
 * QQ 群：599120645
 * 微信群：扫描以下二维码一键入群 (2 群)
 
-![wx_chat](https://user-images.githubusercontent.com/85264922/137836078-559e5b23-a945-4b94-8b3b-0ec0854b5f7f.png)
+![vx](https://user-images.githubusercontent.com/85264922/139030846-d3fb21f6-6b6c-47cc-945c-5f85ac2143b3.png)
 
 * 可在 [此处](http://bbs.decoyit.com/forum-44-1.html) 进行 BUG 反馈 :sunglasses:
