@@ -1,6 +1,6 @@
 ![DecoyMini_bg](https://github.com/decoymini/DecoyMini/blob/main/DecoyMini_bg_new.png)
 
-![version](https://img.shields.io/badge/version-v1.0.2234-brightgreen)
+![version](https://img.shields.io/badge/version-v1.0.2377-brightgreen)
 ![language](https://img.shields.io/badge/language-golang-orange)
 ![platform](https://img.shields.io/badge/platform-windows%20%7C%20linux-lightgrey)
 
@@ -61,17 +61,17 @@ DecoyMini_Windows_xxx.exe -install -addr http://192.168.8.100:8080
 
 **Linux:**
 ```bash
-DecoyMini_Linux_xyy_xxx.pkg -install -addr 管理中心地址
+./DecoyMini_Linux_xyy_xxx.pkg -install -addr 管理中心地址
 ```
 
 示例
 ```bash
-DecoyMini_Linux_xyy_xxx.pkg -install -addr http://192.168.8.100:8080
+./DecoyMini_Linux_xyy_xxx.pkg -install -addr http://192.168.8.100:8080
 ```
 
 ### 卸载
 
-如若要卸载，在终端下输入相应命令即可（Windows 下卸载同样也需在 cmd 管理员模式下）：
+如若要卸载，在终端下输入相应命令（-uninstall）即可（Windows 下卸载同样也需在 cmd 管理员模式下）：
 ```bash
 Windows：decoymini.exe -uninstall
 Linux：decoymini -uninstall
@@ -126,6 +126,10 @@ decoymini -info
 
 ![image](https://user-images.githubusercontent.com/85264922/127760901-7f01fc3c-4608-493f-a7ca-0e7166fd3655.png)
 
+攻击者画像：
+
+![09AFC4FE-619C-4fce-A299-5BA055D88DEE](https://user-images.githubusercontent.com/85264922/139820597-c9ffdf78-1a07-439d-9fa1-91baa06ea227.png)
+
 ## :book: 手册
 如需了解更多，请参阅 [用户手册](http://bbs.decoyit.com/thread-6-1-1.html) ！
 
@@ -134,6 +138,6 @@ decoymini -info
 * QQ 群：599120645
 * 微信群：扫描以下二维码一键入群 (2 群)
 
-![vx](https://user-images.githubusercontent.com/85264922/139030846-d3fb21f6-6b6c-47cc-945c-5f85ac2143b3.png)
+![wx](https://user-images.githubusercontent.com/85264922/139819613-c69f8042-4fa5-47c7-b05b-36088d65e032.png)
 
-* 可在 [此处](http://bbs.decoyit.com/forum-44-1.html) 进行 BUG 反馈 :sunglasses:
+* 可在 [此处](http://bbs.decoyit.com/forum-41-1.html) 进行 BUG 反馈 :sunglasses:
