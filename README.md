@@ -126,9 +126,13 @@ decoymini -info
 
 ![image](https://user-images.githubusercontent.com/85264922/127760901-7f01fc3c-4608-493f-a7ca-0e7166fd3655.png)
 
-攻击者画像：
+攻击 IP 分析：
 
 ![09AFC4FE-619C-4fce-A299-5BA055D88DEE](https://user-images.githubusercontent.com/85264922/139820597-c9ffdf78-1a07-439d-9fa1-91baa06ea227.png)
+
+被攻击 IP 分析：
+
+![331AF7B7-6563-4133-9E8A-0F79D2198C5E](https://user-images.githubusercontent.com/85264922/142332936-1205a035-3baf-4d72-951e-029ba10a3809.png)
 
 ## :book: 手册
 如需了解更多，请参阅 [用户手册](http://bbs.decoyit.com/thread-6-1-1.html) ！
