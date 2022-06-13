@@ -146,6 +146,6 @@ decoymini -info
 * QQ 群：599120645
 * 微信群：扫描以下二维码一键入群 (2 群)
 
-![20220606111919](https://user-images.githubusercontent.com/85264922/172088935-3cbb7d6c-fb27-4a4c-9cd4-fe6f4c78cd1e.png)
+![20220613094009](https://user-images.githubusercontent.com/85264922/173264756-aafe97a2-59a0-4a60-a6a7-6146d0e2d571.png)
 
 * 可在 [此处](http://bbs.decoyit.com/forum-41-1.html) 进行 BUG 反馈 :sunglasses:
