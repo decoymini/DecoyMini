@@ -4,18 +4,16 @@
 ![language](https://img.shields.io/badge/language-golang-orange)
 ![platform](https://img.shields.io/badge/platform-windows%20%7C%20linux-lightgrey)
 
-🍯 欺骗防御是近些年出现的新技术，以攻防对抗思路为基础，让防守者得以观察攻击者行为的新兴网络安全防御战术。传统的安全防御思路，防守者需要充分、全面、完整的对网络和系统的安全漏洞和风险进行分析、评估和整改来确保整个网络的安全，但是网络的攻击面众多，很难完全及时发现所有问题或风险；而攻击者只需要抓住一次机会就可以达到其攻击目标。欺骗防御技术跟传统安全模型完全相反，攻击者除非 100% 正确，否则就会触碰到诱捕环境进而暴露攻击行为。
-
-通过欺骗防御，可以有效改变攻防不对称，变被动为主动，是对传统防御的有力增强和有益补充。全球最具权威的 IT 研究与顾问咨询公司 Gartner 评价 "欺骗防御" 等技术未来 5-10 年能够进入主流市场，是对现有安全防护体系产生深远影响的安全技术发展趋势。
+🍯 DecoyMini（智能仿真与诱捕防御工具）是一款完全免费的蜜罐软件，工具采用轻量化威胁诱捕技术，具备丰富的攻击诱捕和溯源分析能力；支持插件化的仿真模板，从论坛一键下载模板就可以快速在本地部署新的蜜罐；提供灵活的蜜罐自定义能力，通过界面可视化编排即可部署专属的蜜罐；支持本地高质量内生情报输出，可以无缝应用到网关设备对攻击进行及时封堵。DecoyMini是企业零成本构建主动感知网络攻击的得力工具，可以协助企业有效提升网络安全监测、响应及防御能力。
 
 [DecoyMini 演示环境](http://demo.decoymini.com:88) (使用论坛帐户登录)
 
 ## :zap: 特点
-* 安全稳定：基于商业化蜜罐产品（DecoyPro）能力积累，以企业级技术做免费蜜罐产品（DecoyMini），产品安全性高，稳定性有保障。
-* 多样化仿真诱捕能力：将仿真基础能力和仿真业务能力松耦合，采用仿真模板来管理行业化、业务化的仿真能力，支持通过一键式导入云端仿真模板即可实现新的仿真能力的快速部署和应用。仿真能力部署效率提升数倍。
-* 高可扩展能力：采用可视化仿真编排引擎，支持仅通过界面配置即可实现对新的网络协议或服务、应用的仿真能力，大大降低仿真能力开发门槛。模板支持通过DecoyMini论坛进行分享。
-* 分享奖励：通过用户手动或通过工具自动分享仿真模板和蜜罐攻击情报数据，可以获取丰富的奖励。
-* 部署灵活：工具支持主流操作系统（Windows 32/64位,CentOS/Ubuntu/Debian/Kali 32/64位,树莓派等），安装、使用简单。支持单节点运行，也支持多节点集中管理。
+* 智能仿真：插件化的仿真模板，一键导入云端仿真模板库就可以在本地网络快速部署多样化的安全可控的仿真服务和应用，支持对WEB站点进行自动学习和仿真
+* 高效诱捕：支持快速部署蜜罐群，使用虚拟IP，将网络内空闲的IP资源绑定到一到多个仿真环境上，支持动态绑定端口来增加蜜罐诱惑性，大大提高攻击诱捕的能力
+* 灵活扩展：采用可视化仿真编排引擎，用户通过界面配置即可实现对自定义的网络协议、服务或应用的仿真，模板支持系统间快速迁移和通过DecoyMini论坛进行分享
+* 部署简便：支持主流操作系统（Windows 32/64位, CentOS/Ubuntu/Debian/Kali 32/64位, 树莓派等）,支持Docker运行，支持单节点、多节点集中管理，部署灵活、一键安装、使用简单
+* 安全有效：基于商业化蜜罐产品（DecoyPro）能力积累，采用轻量化威胁诱捕技术做免费蜜罐工具（DecoyMini），安全性好，成熟度高、稳定性有保障。
 
 ## :hourglass_flowing_sand: 部署模式
 * 单节点模式：管理中心与诱捕探针一体式运行在一台主机上，为 DecoyMini 默认模式。
@@ -38,9 +36,31 @@ DecoyMini_Windows_xxx.exe -install
 ```
 
 **Linux：**
+在已安装 Docker 的环境下，运行如下命令快速安装 DecoyMini：
 ```bash
 ./DecoyMini_Linux_xyy_xxx.pkg -install
 ```
+
+**Docker：**
+```bash
+dockerrun-itd--namedecoymini\
+--networkhost\
+--restart=always\
+--privileged=true\
+decoyit/decoymini:latest
+```
+使用 Docker 镜像安装 DecoyMini，默认管理端口为 88，可以通过设置环境变量 LISTENING_ADDR 来更改监听端口；可以将 DecoyMini 的 /usr/decoymini 和 /usr/decoy 两个目录持久化，实现 DecoyMini 系统数据持久化存储。支持自定义监听端口和数据持久化的安装命令如下：
+```bash
+dockerrun-itd--namedecoymini\
+-v/usr/decoymini:/usr/decoymini\
+-v/usr/decoy:/usr/decoy\
+--envLISTENING_ADDR="0.0.0.0:8090"\
+--networkhost\
+--restart=always\
+--privileged=true\
+decoyit/decoymini:latest
+```
+注意：按需将环境变量 LISTENING_ADDR 的值更改为实际需要监听的地址和端口。
 
 登录可使用两种方式登录，一个使用论坛帐号直接登录 (推荐)，另一个是使用本地默认帐户登录，本地默认帐号密码：
 ```bash
@@ -68,6 +88,18 @@ DecoyMini_Windows_xxx.exe -install -addr http://192.168.8.100:8080
 ```bash
 ./DecoyMini_Linux_xyy_xxx.pkg -install -addr http://192.168.8.100:8080
 ```
+
+**Docker:**
+在已安装 Docker 的环境下，运行如下命令快速安装 DecoyMini 诱捕探针：
+```bash
+dockerrun-itd--namedecoymini\
+--envMANAGER_ADDR="http://192.168.1.100:88"\
+--networkhost\
+--restart=always\
+--privileged=true\
+decoyit/decoymini:latest
+```
+注意：须将环境变量 MANAGER_ADDR 的值更改为实际管理节点部署的地址。
 
 ### 卸载
 
