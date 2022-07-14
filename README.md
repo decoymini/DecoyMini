@@ -170,12 +170,12 @@ decoymini -info
 
 ![P2](https://user-images.githubusercontent.com/85264922/144013231-6c68e8f8-ec9f-4dee-ba56-1cf8297b4a1c.png)
 
-内生情报输出
+内生情报输出：
 
 ![ABAFF3D4-6F0B-4573-9F61-62AD49D9B8E1](https://user-images.githubusercontent.com/85264922/178920676-0f83bc5e-3337-4ef6-a634-e7ac87e63a55.png)
 
 ## :book: 手册
-如需了解更多，请参阅 [用户手册](http://bbs.decoyit.com/thread-6-1-1.html) ！
+如需了解更多，请参阅 [用户手册](https://bbs.decoyit.com/doc/DecoyMini_v1.2.pdf) ！
 
 ## :pushpin: 交流
 在使用 DecoyMini 过程中，如有问题可以在微信群或 QQ 群交流讨论 :clap:，我们都会及时处理！
