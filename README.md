@@ -16,19 +16,19 @@
 * 安全有效：基于商业化蜜罐产品（DecoyPro）能力积累，采用轻量化威胁诱捕技术做免费蜜罐工具（DecoyMini），安全性好，成熟度高、稳定性有保障。
 
 ## :hourglass_flowing_sand: 部署模式
-* 单节点模式：管理中心与诱捕探针一体式运行在一台主机上，为 DecoyMini 默认模式。
-* 集中管理模式：在网络中选择一台主机部署 DecoyMini 软件作为管理中心，在多个主机上以诱捕探针模式部署诱捕节点，将诱捕节点集中到此管理中心统一管理。
+* 单节点模式：管理节点与诱捕探针一体式运行在一台主机上，为 DecoyMini 默认模式。
+* 集中管理模式：在网络中选择一台主机部署 DecoyMini 软件作为管理节点，在多个主机上以诱捕探针模式部署诱捕节点，将诱捕节点集中到此管理节点统一管理。
 
 ## :desktop_computer: 环境需求
-配置\类别|单节点|管理中心|诱捕探针
+配置\类别|单节点|管理节点|诱捕探针
 --|:--:|:--:|:--:
-最低配置|CPU ≥ 2核; 内存 ≥ 2G; 硬盘 ≥ 50G|CPU ≥ 4核; 内存 ≥ 4G; 硬盘 ≥ 100G|CPU ≥ 2核; 内存 ≥ 1G; 硬盘 ≥ 10G
-推荐配置|CPU 4 核; 内存 4G; 硬盘 100G|CPU 6 核; 内存 8G; 硬盘 200G|CPU 2 核; 内存 2G; 硬盘 20G
+最低配置|CPU ≥ 2核; 内存 ≥ 1G; 硬盘 ≥ 20G|CPU ≥ 2核; 内存 ≥ 2G; 硬盘 ≥ 100G|CPU ≥ 1核; 内存 ≥ 1G; 硬盘 ≥ 10G
+推荐配置|CPU 4 核; 内存 2G; 硬盘 50G|CPU 4 核; 内存 4G; 硬盘 200G|CPU 2 核; 内存 2G; 硬盘 20G
 
 ## :package: 安装与卸载
 前往 :point_right: [releases](https://github.com/decoymini/DecoyMini/releases) 处下载 DecoyMini，支持 32 位和 64 位的 Windows 和 Linux，用户安装需遵循 [安装许可使用协议](http://bbs.decoyit.com/thread-17-1-1.html) ！
 
-### 单节点/管理中心安装
+### 单节点/管理节点安装
 
 **Windows：**
 ```bash
@@ -71,7 +71,7 @@ decoyit/decoymini:latest
 
 **Windows**:
 ```bash
-DecoyMini_Windows_xxx.exe -install -addr 管理中心地址
+DecoyMini_Windows_xxx.exe -install -addr 管理节点地址
 ```
 
 示例
@@ -81,7 +81,7 @@ DecoyMini_Windows_xxx.exe -install -addr http://192.168.8.100:8080
 
 **Linux:**
 ```bash
-./DecoyMini_Linux_xyy_xxx.pkg -install -addr 管理中心地址
+./DecoyMini_Linux_xyy_xxx.pkg -install -addr 管理节点地址
 ```
 
 示例
