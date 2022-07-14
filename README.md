@@ -140,23 +140,23 @@ decoymini -info
 
 风险事件列表：
 
-![p2](https://user-images.githubusercontent.com/85264922/129677904-e4d2ceab-9dd8-4916-8a83-e323f1dd4d26.png)
+![1C703267-3B30-4702-A47F-64DDEB92614C](https://user-images.githubusercontent.com/85264922/178920448-849a3ee6-2393-47e1-a7bb-a3f8db43a3d6.png)
 
 风险事件详情：
 
-![image](https://user-images.githubusercontent.com/85264922/127760877-8f1aab77-631e-4751-8385-c80d5e6b650b.png)
+![3EACB8AD-C04E-458a-98A0-FC98348B9B8D](https://user-images.githubusercontent.com/85264922/178920509-5a6efe65-da78-4369-96df-419f876faf63.png)
 
 诱捕日志详情：
 
-![image](https://user-images.githubusercontent.com/85264922/127760886-ec49cafd-9ded-4a4d-bae1-a6f3ce89275f.png)
+![7FB80344-479C-4f91-8109-F34A46E24648](https://user-images.githubusercontent.com/85264922/178920581-e1b1f8cd-a3c0-4354-a0d3-d3d778f85c37.png)
 
 诱捕策略配置：
 
-![image](https://user-images.githubusercontent.com/85264922/127760892-14524dc1-a295-440e-bf87-7319b7e0aa83.png)
+![3D556309-455B-46ae-AA51-4A5FE499B160](https://user-images.githubusercontent.com/85264922/178920246-d8451bf8-f0a3-4bf5-a9e8-2d3adddb8aed.png)
 
 仿真模板配置：
 
-![image](https://user-images.githubusercontent.com/85264922/127760901-7f01fc3c-4608-493f-a7ca-0e7166fd3655.png)
+![E9984BEA-434A-4971-B755-335EF4ADD784](https://user-images.githubusercontent.com/85264922/178920300-97873029-a3de-411f-9ec8-1a5e2a5c8bc0.png)
 
 攻击 IP 分析：
 
@@ -169,6 +169,10 @@ decoymini -info
 诱捕器分析：
 
 ![P2](https://user-images.githubusercontent.com/85264922/144013231-6c68e8f8-ec9f-4dee-ba56-1cf8297b4a1c.png)
+
+内生情报输出
+
+![ABAFF3D4-6F0B-4573-9F61-62AD49D9B8E1](https://user-images.githubusercontent.com/85264922/178920676-0f83bc5e-3337-4ef6-a634-e7ac87e63a55.png)
 
 ## :book: 手册
 如需了解更多，请参阅 [用户手册](http://bbs.decoyit.com/thread-6-1-1.html) ！
