@@ -182,6 +182,6 @@ decoymini -info
 * QQ 群：599120645
 * 微信群：扫描以下二维码一键入群 (3 群)
 
-<img width="239" alt="微信技术交流群" src="http://s.decoyit.com/download/wechat.png">
+<img width="239" alt="微信技术交流群3" src="http://s.decoyit.com/download/wechat.png">
 
 * 可在 [此处](http://bbs.decoyit.com/forum-41-1.html) 进行 BUG 反馈 :sunglasses:
