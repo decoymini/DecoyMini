@@ -94,7 +94,7 @@ DecoyMini_Windows_xxx.exe -install -addr http://192.168.8.100:8080
 ```bash
 docker run -itd --name decoymini\
  --env MANAGER_ADDR="http://192.168.1.100:88"\
- --networkhost\
+ --network host\
  --restart=always\
  --privileged=true\
  decoyit/decoymini:latest
