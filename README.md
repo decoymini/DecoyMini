@@ -55,7 +55,7 @@ docker run -itd --name decoymini\
  -v/usr/decoymini:/usr/decoymini\
  -v/usr/decoy:/usr/decoy\
  --env LISTENING_ADDR="0.0.0.0:8090"\
- --networkhost\
+ --network host\
  --restart=always\
  --privileged=true\
  decoyit/decoymini:latest
