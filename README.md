@@ -43,7 +43,7 @@ DecoyMini_Windows_xxx.exe -install
 
 **Docker：**
 ```bash
-dockerrun-itd--namedecoymini\
+docker run -itd --name decoymini\
 --networkhost\
 --restart=always\
 --privileged=true\
@@ -51,7 +51,7 @@ decoyit/decoymini:latest
 ```
 使用 Docker 镜像安装 DecoyMini，默认管理端口为 88，可以通过设置环境变量 LISTENING_ADDR 来更改监听端口；可以将 DecoyMini 的 /usr/decoymini 和 /usr/decoy 两个目录持久化，实现 DecoyMini 系统数据持久化存储。支持自定义监听端口和数据持久化的安装命令如下：
 ```bash
-dockerrun-itd--namedecoymini\
+docker run -itd --name decoymini\
 -v/usr/decoymini:/usr/decoymini\
 -v/usr/decoy:/usr/decoy\
 --envLISTENING_ADDR="0.0.0.0:8090"\
@@ -92,7 +92,7 @@ DecoyMini_Windows_xxx.exe -install -addr http://192.168.8.100:8080
 **Docker:**
 在已安装 Docker 的环境下，运行如下命令快速安装 DecoyMini 诱捕探针：
 ```bash
-dockerrun-itd--namedecoymini\
+docker run -itd --name decoymini\
 --envMANAGER_ADDR="http://192.168.1.100:88"\
 --networkhost\
 --restart=always\
