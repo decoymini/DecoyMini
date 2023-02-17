@@ -52,8 +52,8 @@ docker run -itd --name decoymini\
 使用 Docker 镜像安装 DecoyMini，默认管理端口为 88，可以通过设置环境变量 LISTENING_ADDR 来更改监听端口；可以将 DecoyMini 的 /usr/decoymini 和 /usr/decoy 两个目录持久化，实现 DecoyMini 系统数据持久化存储。支持自定义监听端口和数据持久化的安装命令如下：
 ```bash
 docker run -itd --name decoymini\
- -v/usr/decoymini:/usr/decoymini\
- -v/usr/decoy:/usr/decoy\
+ -v /usr/decoymini:/usr/decoymini\
+ -v /usr/decoy:/usr/decoy\
  --env LISTENING_ADDR="0.0.0.0:8090"\
  --network host\
  --restart=always\
