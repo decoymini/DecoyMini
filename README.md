@@ -180,8 +180,8 @@ decoymini -info
 ## :pushpin: 交流
 在使用 DecoyMini 过程中，如有问题可以在微信群或 QQ 群交流讨论 :clap:，我们都会及时处理！
 * QQ 群：599120645
-* 微信群：扫描以下二维码一键入群 (4 群) 6 月 4 日前有效
+* 微信群：扫描以下二维码一键入群 (4 群) 6 月 11 日前有效
 
-![20230528090024_2](https://github.com/decoymini/DecoyMini/assets/85264922/2fc0f368-d9fb-468d-b763-712a2879a5d7)
+![20230604065634](https://github.com/decoymini/DecoyMini/assets/85264922/454e2987-c545-42b7-b4c1-2f2cca4a9fb9)
 
 * 可在 [此处](http://bbs.decoyit.com/forum-41-1.html) 进行 BUG 反馈 :sunglasses:
