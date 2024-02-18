@@ -184,6 +184,6 @@ decoymini -info
 
 进来后请不要发广告！！！如果发现自己无故被移出，说明你邀请过的人发过广告！！！
 
-![20240108075212](https://github.com/decoymini/DecoyMini/assets/85264922/8d2f8bc1-52c0-4a86-8aaf-26d367336850)
+![20240218082737](https://github.com/decoymini/DecoyMini/assets/85264922/e1a5e42f-08b0-4088-9bde-643e759a4f19)
 
 * 可在 [此处](http://bbs.decoyit.com/forum-41-1.html) 进行 BUG 反馈 :sunglasses:
