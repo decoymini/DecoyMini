@@ -1,10 +1,10 @@
 ![DecoyMini_bg](https://github.com/decoymini/DecoyMini/blob/main/DecoyMini_bg_new.png)
 
-![version](https://img.shields.io/badge/version-v2.0.6691-brightgreen)
+![version](https://img.shields.io/badge/version-v3.0.9020-brightgreen)
 ![language](https://img.shields.io/badge/language-golang-orange)
 ![platform](https://img.shields.io/badge/platform-windows%20%7C%20linux-lightgrey)
 
-🍯 DecoyMini（智能仿真与诱捕防御工具）是一款完全免费的蜜罐软件，工具采用轻量化威胁诱捕技术，具备丰富的攻击诱捕和溯源分析能力；支持插件化的仿真模板，从论坛一键下载模板就可以快速在本地部署新的蜜罐；提供灵活的蜜罐自定义能力，通过界面可视化编排即可部署专属的蜜罐；支持本地高质量内生情报输出，可以无缝应用到网关设备对攻击进行及时封堵。DecoyMini是企业零成本构建主动感知网络攻击的得力工具，可以协助企业有效提升网络安全监测、响应及防御能力。
+🍯 DecoyMini（吉星·智能仿真与诱捕防御工具）是一款完全免费的蜜罐软件，工具采用轻量化威胁诱捕技术，具备丰富的攻击诱捕和溯源分析能力；支持插件化的仿真模板，从论坛一键下载模板就可以快速在本地部署新的蜜罐；提供灵活的蜜罐自定义能力，通过界面可视化编排即可部署专属的蜜罐；支持本地高质量内生情报输出，可以无缝应用到网关设备对攻击进行及时封堵。DecoyMini是企业零成本构建主动感知网络攻击的得力工具，可以协助企业有效提升网络安全监测、响应及防御能力。
 
 [DecoyMini 演示环境](http://demo.decoymini.com:88) (使用论坛帐户登录)
 
@@ -128,7 +128,7 @@ decoymini -info
 ## :bar_chart: 界面
 登录界面：
 
-<img width="1139" alt="20220809173759" src="https://user-images.githubusercontent.com/85264922/183617968-5e01515e-f9d8-4c10-8b94-43b72cb40b59.png">
+![image2](https://github.com/decoymini/DecoyMini/assets/85264922/1de68be5-3298-41d7-95d4-2a90839d22fe)
 
 风险态势大屏：
 
@@ -180,10 +180,10 @@ decoymini -info
 ## :pushpin: 交流
 在使用 DecoyMini 过程中，如有问题可以在微信群或 QQ 群交流讨论 :clap:，我们都会及时处理！
 * QQ 群：599120645
-* 微信群：扫描以下二维码一键入群 (4 群) 2 月 25 日前有效
+* 微信群：扫描以下二维码一键入群 (4 群) 3 月 8 日前有效
+
+<img width="120" alt="2024-03-01_17-06-04" src="https://github.com/decoymini/DecoyMini/assets/85264922/b194c432-b9ad-4bac-86cb-20cf7d917955">
 
 进来后请不要发广告！！！如果发现自己无故被移出，说明你邀请过的人发过广告！！！
-
-![20240218082737](https://github.com/decoymini/DecoyMini/assets/85264922/e1a5e42f-08b0-4088-9bde-643e759a4f19)
 
 * 可在 [此处](http://bbs.decoyit.com/forum-41-1.html) 进行 BUG 反馈 :sunglasses:
