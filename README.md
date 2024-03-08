@@ -1,6 +1,6 @@
 ![DecoyMini_bg](https://github.com/decoymini/DecoyMini/blob/main/DecoyMini_bg_new.png)
 
-![version](https://img.shields.io/badge/version-v3.0.9020-brightgreen)
+![version](https://img.shields.io/badge/version-v3.0.9081-brightgreen)
 ![language](https://img.shields.io/badge/language-golang-orange)
 ![platform](https://img.shields.io/badge/platform-windows%20%7C%20linux-lightgrey)
 
@@ -180,9 +180,9 @@ decoymini -info
 ## :pushpin: 交流
 在使用 DecoyMini 过程中，如有问题可以在微信群或 QQ 群交流讨论 :clap:，我们都会及时处理！
 * QQ 群：599120645
-* 微信群：扫描以下二维码一键入群 (4 群) 3 月 8 日前有效
+* 微信群：扫描以下二维码一键入群 (4 群) 3 月 15 日前有效
 
-<img width="120" alt="2024-03-01_17-06-04" src="https://github.com/decoymini/DecoyMini/assets/85264922/b194c432-b9ad-4bac-86cb-20cf7d917955">
+<img width="120" alt="2024-03-08_17-04-58" src="https://github.com/decoymini/DecoyMini/assets/85264922/eaea101b-b4b7-4c5c-acbd-5f1a88614ce1">
 
 进来后请不要发广告！！！如果发现自己无故被移出，说明你邀请过的人发过广告！！！
 
