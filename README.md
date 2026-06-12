@@ -18,7 +18,8 @@
 * 安全有效：基于商业化蜜罐产品（DecoyPro）能力积累，采用轻量化威胁诱捕技术做免费蜜罐工具（DecoyMini），安全性好，成熟度高、稳定性有保障。
 
 ## :hourglass_flowing_sand: 部署模式
-* 单节点模式：管理节点与诱捕探针一体式运行在一台主机上，为 DecoyMini 默认模式。
+* 云模式：诱捕探针部署在可连互联网的主机上，通过 [云平台](https://decoymini.com) 实现对诱捕探针的策略下发与诱捕数据管理，为 DecoyMini 推荐模式。
+* 单节点模式：管理节点与诱捕探针一体式运行在一台主机上，通过此主机同时提供管理功能和诱捕功能。
 * 集中管理模式：在网络中选择一台主机部署 DecoyMini 软件作为管理节点，在多个主机上以诱捕探针模式部署诱捕节点，将诱捕节点集中到此管理节点统一管理。
 
 ## :desktop_computer: 环境需求
@@ -29,6 +30,22 @@
 
 ## :package: 安装与卸载
 前往 :point_right: [releases](https://github.com/decoymini/DecoyMini/releases) 处下载 DecoyMini，支持 32 位和 64 位的 Windows 和 Linux，用户安装需遵循 [安装许可使用协议](http://bbs.decoyit.com/thread-17-1-1.html) ！
+
+### 云模式安装
+
+请先访问 [吉星云诱捕分析平台](https://decoymini.com) 完成注册，再使用如下命令进行安装：
+
+**Windows：**
+```bash
+DecoyMini_Windows_xxx.exe -install -uid=DecoyMini社区用户名
+```
+
+**Linux：**
+```bash
+./DecoyMini_Linux_xyy_xxx.pkg -install -uid=DecoyMini社区用户名
+```
+
+提示：云模式安装 DecoyMini所在主机需要能够连接互联网。
 
 ### 单节点/管理节点安装
 
